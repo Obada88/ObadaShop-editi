@@ -1,0 +1,32 @@
+.footer{
+    border: 1.5px solid #f8f9fa;
+}
+
+.logo-footer{
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.tilte-Quick{
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 1rem;
+
+}
+
+.payment{
+    max-width: 100%;
+}
+
+.btn-footer{
+    background-color: #000;
+    color: #fff !important;
+    transition: 0.5s ease-in-out;
+}
+
+.btn-footer:hover{
+    background-color: #fff;
+    color: #000 !important;
+    letter-spacing: 1px;
+}

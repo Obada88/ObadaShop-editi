@@ -1,0 +1,39 @@
+
+.title-contact{
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+input{
+    padding: 1rem;
+    border: 3px solid #f8f9fa;
+    border-radius: 5px;
+    width: 350px;
+   
+ 
+}
+textarea{
+    border: 3px solid #f8f9fa;
+    border-radius: 5px;
+}
+
+.btn-contatc{
+    background-color: #000;
+    color: #fff !important;
+    transition: 0.5s ease-in-out;
+}
+
+.btn-contatc:hover{
+    background-color: #fff;
+    color: #000 !important;
+    letter-spacing: 1px;
+}

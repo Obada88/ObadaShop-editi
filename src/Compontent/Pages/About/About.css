@@ -1,0 +1,73 @@
+
+.title-about{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.box-img-about img{
+    max-width: 100%;
+}
+
+.tilt-about-product{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.box-content-about p{
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #b2b5b8;
+}
+
+.price-about{
+    display: flex;
+    gap: 50px;
+    padding: 1rem;
+}
+
+.price-about span{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.afterDiscount{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #b2b5b8;
+    text-decoration: line-through;
+
+}
+
+.ads{
+    font-size: 1.5rem;
+    font-weight: 600;  
+}
+.timer-ads{
+    margin-top: 1rem;
+}
+.timer-ads span{
+    padding:0.5rem;
+    margin: 1rem;
+   background-color: #f8f9fa;
+   border-radius: 5px;
+   font-size: 1rem;
+   color: #dc3545;
+}
+
+.btn-about{
+    background-color: #000;
+    color: #fff !important;
+    transition: 0.5s ease-in-out;
+}
+
+.btn-about:hover{
+    background-color: #fff;
+    color: #000 !important;
+    letter-spacing: 1px;
+}
+
+.About-box{
+    border: 2px solid #f8f9fa;
+    border-radius: 5px;
+}

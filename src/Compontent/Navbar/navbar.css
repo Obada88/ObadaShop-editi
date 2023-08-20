@@ -1,0 +1,57 @@
+
+.navbar-brand{
+    color: #000;
+    font-size: 1rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.nav-link{
+    margin: 0.5rem;
+    font-size: 1rem;
+    color: #000;
+    font-size: 1.2rem;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+}
+
+.icon-nav{
+    position: relative;
+}
+
+.icon-nav span{
+    position: absolute;
+    top: 0;
+    left: 1.5rem;
+    background-color: #000;
+    color: #fff;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.shop{
+    color: #000 !important;
+}
+
+.responsive{
+    position: relative;
+}
+
+.icon-active{
+    display: none;
+   
+}
+
+
+@media( max-width: 991px){
+    .navbar{
+        display: none;
+    }
+}

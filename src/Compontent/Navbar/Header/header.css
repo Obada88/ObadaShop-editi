@@ -1,0 +1,65 @@
+
+.headre{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #f8f9fa;
+}
+
+.icon-soc{
+    margin: 0.5rem;
+    color: #6c757d;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.icon-soc:hover{
+    color: #0d6efd;
+}
+
+.headre-anys{
+    font-size: 1rem;
+    font-weight: bold;
+    transition: 0.5s ease;
+}
+
+
+
+.lanage{
+margin-right: 1rem;
+}
+
+button.btn.icon-soc {
+    background-color: #fff;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    transition: .5s ease-in-out;
+    font-size: 1.1rem;
+
+}
+
+.Tiktok:hover{
+    background-color: #000 !important;
+    color: #fff;
+}
+.Instagram:hover{
+    background-color: #dc3545 !important;
+    color: #fff;
+}
+
+
+button.btn.icon-soc:hover{
+    background-color: #0d6efd;
+    color: #fff;
+}
+@media(max-width: 991px
+){
+    .headre{
+        flex-direction: column;
+    }  
+    .headre-anys{
+        padding: 1rem;
+    }
+}
+
